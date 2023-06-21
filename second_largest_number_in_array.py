@@ -1,3 +1,6 @@
+"""
+Find the second largest number in the integer array in python
+"""
 def find_second_largest(arr):
     sorted_numbers = sorted(arr, reverse=True)
     
